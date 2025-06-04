@@ -1,4 +1,5 @@
 <?php
+//akmal goblok
 // Check existence of id parameter before processing further
 if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
     // Include config file
@@ -38,7 +39,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
             echo "Oops! Something went wrong. Please try again later.";
         }
     }
-     
+
     // Close statement
     mysqli_stmt_close($stmt);
     
